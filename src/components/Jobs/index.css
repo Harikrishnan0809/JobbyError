@@ -1,0 +1,242 @@
+.jobs-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.search-input-container {
+  border: solid 1px #2c364c;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.search-input {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding-left: 15px;
+  color: #ffffff;
+}
+
+.job-content-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-button {
+  background-color: #272727;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #cbd5e1;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.over-all-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.profile-image {
+  width: 80px;
+}
+
+.profile-name {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #6366f1;
+}
+
+.short-bio {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.hr-line {
+  width: 100%;
+  margin-top: 20px;
+  border: solid 2px #475569;
+}
+
+.view-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.retry-button {
+  background-color: #4f46e5;
+  color: #cbd5e1;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 70px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 8px;
+}
+
+.side-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.un-order-list-params {
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.check-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+  margin-left: 15px;
+}
+
+.check-list {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ul-job-details {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 90%;
+}
+
+.desktop-input {
+  width: 400px;
+  margin: 20px;
+  display: none;
+}
+
+.no-jobs-view-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-jobs-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.no-job-para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #b6c5ff;
+  margin-top: 0px;
+}
+
+.job-failure-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 400px;
+}
+
+.failure-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+}
+
+.loader-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .failure-heading {
+    font-size: 45px;
+  }
+  .mobile-input {
+    display: none;
+  }
+
+  .job-failure-container {
+    width: 70%;
+  }
+
+  .no-jobs-heading {
+    font-size: 40px;
+  }
+
+  .no-jobs-view-container {
+    width: 70%;
+  }
+
+  .desktop-input {
+    display: flex;
+    align-self: flex-start;
+  }
+
+  .job-content-container {
+    width: 30%;
+    align-self: flex-start;
+  }
+
+  .over-all-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ul-job-details {
+    width: 60%;
+    align-self: flex-start;
+  }
+
+  .no-job-image {
+    width: 400px;
+    margin: 20px;
+  }
+}

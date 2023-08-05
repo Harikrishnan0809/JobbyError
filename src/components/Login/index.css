@@ -1,0 +1,80 @@
+.login-bg-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-logo {
+  width: 120px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.label-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: solid 2px #2c364c;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  padding-left: 20px;
+  outline: none;
+  color: #cbd5e1;
+}
+
+.form-container {
+  width: 90%;
+  background-color: #272727;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .form-container {
+    width: 40%;
+  }
+}
+
+.login-button {
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #4f46e5;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.login-button-container {
+  width: 90%;
+}
+
+.error-message {
+  font-size: 13px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+}
